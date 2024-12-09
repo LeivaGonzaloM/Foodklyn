@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#navBarF{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+
+#logo{
+    margin: 0px;
+    padding: 0px;
+    color: red;
+    font-weight:900;
+    background-color: black;
+    border-radius: 10px;
+    padding: 2px;
+    border: 5px double red;
+}
+.logo{
+    margin: 0px;
+    padding: 0px;
+    color: aqua;
+}
+
+/* carousel START */
+.carousel-container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.img-carousel{
+    margin: 0 auto;
+}
+/* carousel END */
+
+.title01{
+    margin: 0px 0px 20px 0px;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    background-color: red;
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 
+    0 0 5px 0.1em #ff0000,
+    0 0 5px 0.2em #ff0745;
+}
+.title02{
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    background-color: red;
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 
+    0 0 5px 0.1em #ff0000,
+    0 0 5px 0.2em #ff0745;
+}
+
+/*menu */
+.card{
+    margin: 10px;
+    box-shadow: 
+    0 0 5px 0.1em #ff0000,
+    0 0 5px 0.2em #ff0745;
+}
+
+#card_footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+/* Botones */
+#btn_active{
+    color: black;
+    font-weight: 500;
+    background-color: red;
+    border-radius: 5px;
+}
+
+#btn_select{
+    color: red;
+    background-color: transparent;
+
+}
+
+#btn_select:hover{
+    color: black;
+    font-weight: 500;
+    background-color: red;
+    border-radius: 5px;
+}
+
+/* nosotros */
+.txt_nosotros{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.txt_moreNosotros{
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+
+iframe{
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+    width: auto;
+}
+
+.txt_map{
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.txtMp02{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
